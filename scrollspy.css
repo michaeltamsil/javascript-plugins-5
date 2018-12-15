@@ -1,13 +1,27 @@
+body{
+    /* position:relative; */
+}
+
 .h-400{
     height: 400px;
-    width:400px;
-    border: 1em solid black ;
+    width: 400px;
+    border: 0.5em solid black ;
+}
+.h-400 > div[id]{
+    margin-top: -3em;
+    padding-top: 3em;
 }
 
 #navbar-example{
     position: fixed;
+    top: 0px;
 }
 
 #content{
-    margin-top:1em;
+    margin-top:2.7em;
+}
+
+.nav-tabs .nav-link.active{
+    font-weight:bold;
+    color:#007bff;
 }
